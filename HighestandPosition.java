@@ -1,11 +1,10 @@
-
+import java.io.IOException;
 import java.util.Scanner;
 
 public class HighestandPosition
 
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws IOException{
         int N =100, X, highest = 0,position = 0;
         Scanner input =new Scanner(System.in);
         for (int i = 1; i <= N; i++)
