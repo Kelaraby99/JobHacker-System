@@ -1,7 +1,8 @@
 import java.util.Scanner;
+import java.io.IOException;
 
 public class BelowTheMainDiagonal {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         Scanner scanner = new Scanner(System.in);
         double[][] a = new double[12][12];
         char c = scanner.next().charAt(0);
