@@ -1,8 +1,9 @@
 import java.util.Scanner;
+import java.io.IOException;
 
 public class Multiples {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
 
         int A, B;
         Scanner input =new Scanner(System.in);

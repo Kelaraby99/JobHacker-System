@@ -1,7 +1,8 @@
 import java.util.Scanner;
+import java.io.IOException;
 
 public class ArrayFillII{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt();
         int k = 0;

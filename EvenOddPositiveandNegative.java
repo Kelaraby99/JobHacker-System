@@ -1,9 +1,11 @@
 import java.util.Scanner;
+import java.io.IOException;
+
 
 public class EvenOddPositiveandNegative
 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         int X, even = 0,odd = 0,positive = 0,negative = 0;
         Scanner input =new Scanner(System.in);
         for (int i = 1; i <= 5; i++) {
