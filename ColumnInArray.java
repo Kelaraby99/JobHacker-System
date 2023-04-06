@@ -1,6 +1,8 @@
 import java.util.Scanner;
+import java.io.IOException;
+
 public class ColumnInArray {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
         int lineNo;
         float sum = 0, avg = 0;
         Scanner sc = new Scanner(System.in);
